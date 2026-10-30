@@ -6,7 +6,7 @@
 Desenvolvimento de modelos de regressão linear simples e múltipla para analisar a relação entre as características de imóveis para aluguel e seus valores, utilizando dados imobiliários e técnicas de análise estatística e Machine Learning.
 
 
-## Objetivo
+## 🎯 Objetivo
 
 Aplicar modelos de regressão linear para compreender como as características dos imóveis se relacionam com seus valores e avaliar a capacidade preditiva dos modelos utilizando dados de treino e teste.
 
