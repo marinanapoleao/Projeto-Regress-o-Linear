@@ -63,7 +63,7 @@ Dataset ALUGUEL_MOD12.csv, contendo informações sobre imóveis para aluguel, i
 ## 💡Principais Insights e Implicações
 
 
-### 𓂃🖊 Apresentação Storytelling: <https://canva.link/lbkaeskb6mf3bwj>
+
 
 ## 👩‍💻 Sobre a Autora
 
