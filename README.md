@@ -11,7 +11,7 @@ Desenvolvimento de modelos de regressão linear simples e múltipla para analisa
 Aplicar modelos de regressão linear para compreender como as características dos imóveis se relacionam com seus valores e avaliar a capacidade preditiva dos modelos utilizando dados de treino e teste.
 
 
-## 🎯 Problema de Negócio / Pergunta de Pesquisa
+## 📋​ Problema de Negócio / Pergunta de Pesquisa
 
 É possível estimar o valor de um imóvel para aluguel a partir de suas características? Em que medida variáveis como metragem, número de quartos, banheiros, suítes e vagas de garagem ajudam a explicar a variação dos valores imobiliários?
 
