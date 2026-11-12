@@ -60,10 +60,55 @@ Dataset ALUGUEL_MOD12.csv, contendo informações sobre imóveis para aluguel, i
 
 ## 📈 Resultados e Métricas
 
+#### Modelo 1 — Regressão Linear Simples
+
+- Variável independente: Metragem.
+
+- Variável dependente: Valor_Condominio.
+
+*Coeficiente de determinação (R²)*
+
+Treinamento: 64,19%
+
+Teste: 67,05%
+
+Equação da regressão:
+
+\[
+Y=-117,84+10,56X
+\]
+
+*Y = valor do condomínio; X = metragem do imóvel.*
+
+#### Modelo 2 — Regressão Linear Múltipla
+
+- Variáveis independentes: Valor_Aluguel, Metragem, N_Quartos, N_banheiros, N_Suites, N_Vagas e quatro variáveis categóricas codificadas.
+
+- Variável dependente: Valor_Condominio.
+
+*Coeficiente de determinação (R²)*
+
+Treinamento: 76,47%
+
+Teste: 78,57%
+
+O modelo de Regressão Linear Múltipla apresentou melhor desempenho, explicando aproximadamente 78,57% da variabilidade do valor do condomínio na base de teste.
+
 ## 💡Principais Insights e Implicações
 
+- A metragem apresentou forte correlação positiva com o valor do condomínio (r = 0,81).
 
+- A metragem, isoladamente, não explica totalmente o valor do condomínio, indicando a influência de outras características dos imóveis.
 
+- Foi identificada uma correlação forte entre número de suítes e número de banheiros (r = 0,92).
+
+- A análise dos outliers demonstrou a necessidade de considerar imóveis de diferentes padrões de mercado, levando à classificação entre Mercado Padrão e Mercado de Luxo.
+
+- A Regressão Linear Múltipla apresentou desempenho superior ao modelo simples, com aumento do R² de teste de 67,05% para 78,57%.
+
+- Os resultados de treinamento e teste foram próximos, indicando consistência no desempenho dos modelos nessas duas amostras.
+
+*Implicação para o negócio:* a utilização de múltiplas características dos imóveis permite estimativas mais explicativas do valor do condomínio, podendo auxiliar análises comparativas e avaliações do mercado imobiliário.
 
 ## 👩‍💻 Sobre a Autora
 
